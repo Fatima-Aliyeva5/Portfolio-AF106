@@ -1,0 +1,32 @@
+Git commands
+
+1)git init- qovluğun içində .git adlı gizli qovluq yaradır, qovluğu izləmək üçün istifadə olunur
+2)git status- hazırki fayl dəyişikliklərini göstərir
+3)git clone- qovluğu klonlamaq üçün istifadə olunur
+4)git log- commit zamanı mesajları, və onların tarixini göstərir
+5)git diff- elədiyimiz dəyişiklikləri müqayisə edir
+6)git add .-dəyişiklikləri əlavə edir
+7)git commit -m ""- faylları saxlamaq və mesaj əlavə etmək üçün istifadə olunur
+8)git push- dəyişiklikləri githuba push edir
+9)git branch- Mövcud branchləri göstərir
+10)git checkout [branchname]- branchlər arasında keçid edir
+11)git checkout -b [branchname]- yeni branch yaradır
+12)git config --global user.name ""- Git istifadəçi adını təyin edir
+13)git config --global user.email ""- Git istifadəçi emailini təyin edir
+14)git config --global user.password ""- Git istifadəçi parolunu təyin edir
+15)git pull origin main- githubda istifadəçilərin son vəziyyətini qaytarır
+16)git rm- faylı qovluqdan silir
+17)git reset [commit]- əvvəlki commiti silmək üçün istifadə olunur
+18)git merge [branchname]- branchləri birləşdirir
+19)git remote- uzaq qovluqları idarə edir
+20)git show [commit]- verilən commit haqqında ətraflı məlumat verir
+21)git stash- bir müddətlik dəyişiklikləri saxlayır
+22)git stash clean-bütün stash-ləri təmizləyir.
+23)git stash apply-Stash edilmiş dəyişiklikləri geri qaytarir
+24)git clean -f- izlənməyən faylları təmizləyir
+25)git revert- əvvəlki commitin təsirini geri alır
+26)git tag [tag_name]-commitə tag adı əlavə edir
+27)git fetch- repodan ən son məlumatları alır, amma onları iş sahəsinə tətbiq etmir.
+28)git pull- repodan son dəyişiklikləri yerli repoya gətirir və avtomatik olaraq birləşdirir (fetch + merge).
+29)git rebase- bir neçə commit-in bir-birinin ardınca gəlməsini təmin edir
+30)git remote add [name] [URL]- yeni bir uzaq repo əlavə edir.
