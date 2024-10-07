@@ -1,0 +1,98 @@
+/* 1)Class ilə seçirik, mətn rəngini qırmızıya boyayır */
+.paragraph {
+  color: red;
+}
+
+/* 2)ID ilə seçirik, , arxa fon rəngi əlavə edir */
+#text {
+  background-color: cadetblue;
+}
+
+/* 3)Tag adı ilə seçirik, yazını kursivlə yazıya çevirir */
+p {
+  font-style: italic;
+}
+
+/* 4)Atribut ilə seçirik, borderin formasını pixel'ə görə yumrulaşdırır*/
+input[type="submit"] {
+  border-radius: 20px;
+}
+
+/*5)Qrup ilə seçirik, hər iki tagin ölçüsünü ölçüsünü 26px edir */
+p,
+h1 {
+  font-size: 26px;
+}
+
+/* 6)Div'in içindən span tagini seçirik, altından xətt çəkir */
+div span {
+  text-decoration: underline;
+}
+
+/* 7)Child seçici ,yalnız divin daxilindəki p tagini ortaya gətirir */
+div > p {
+  text-align: center;
+}
+
+/* 8)Pseudo seçici, 1.ci li elementini göy rəng edir*/
+li:first-child {
+  color: blue;
+}
+/* 9)Pseudo seçici, sonuncu li elementini çehrayi rəng edir*/
+li:last-child {
+  background-color: pink; 
+}
+
+/* 10)Pseudo seçici, 3.cu li elementini narinci rəng edir */
+li:nth-child(3) {
+  color: orange;
+}
+
+/* 11)Pseudo seçici, buttonun üzəeinə gələndə rəngi sarıya çevrilir */
+button:hover {
+  background-color: yellow;
+}
+
+/* 12)Universal seçici, bütün elementlərə border-box modelini tətbiq edir */
+* {
+  box-sizing: border-box;
+}
+
+/* 13)Pseudo class seçici, ilk hərfi qırmızı rəng edir */
+.article::first-letter {
+  color: red;
+}
+
+/* 14)Adjacent sibling seçici, h2 elementindən dərhal sonra gələn span elementinin arxa fonun sari edir */
+p + span {
+  background-color: yellow;
+}
+
+/* 15)Pseudo class seçici, linke toxunduqda rengini yasil edir */
+a:active {
+  color: chartreuse;
+}
+
+/* 16)Pseudo class seçici, inputa toxunduqda oraya focuslandigini gosterir */
+input:focus {
+  outline: 2px solid rgb(216, 105, 124);
+}
+
+/* 17)Pseudo seçici, tək sıradakı li elementlərinin arxa fonunu aqua reng edir  */
+#sec1 li:nth-child(odd) {
+  background-color: aqua;
+}
+
+/* 18)Pseudo-element seçici, p elementinin əvvəlində ! simvolu əlavə edir*/
+#sec1 p::before {
+  content: "!";
+}
+/* 19)Pseudo-element seçici,  p elementinin sonuna @ simvolu əlavə edir */
+#sec1 p::after {
+  content: "@";
+}
+
+/* 20)Pseudo seçici, əvvəl ziyarət edilmiş linklərin rəngini tünd bənövşəyi edir*/
+#sec1 a:visited {
+  color: burlywood;
+}

@@ -1,0 +1,12 @@
+body {
+  background-color: rgb(171, 171, 171);
+}
+.box {
+  width: 500px;
+}
+h1 {
+  text-align: center;
+}
+label {
+  padding-right: 50px;
+}

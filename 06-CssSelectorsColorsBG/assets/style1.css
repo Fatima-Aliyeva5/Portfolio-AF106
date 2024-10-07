@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#sec1 {
+  background-image: linear-gradient(
+    to right,
+    rgb(85, 215, 229),
+    rgb(159, 3, 234)
+  );
+  padding: 164.5px;
+}
+.box {
+  margin: 0 auto;
+  background-color: white;
+  width: 370px;
+  height: 400px;
+  padding: 50px 20px;
+}
+.box h1 {
+  text-align: center;
+}
+form input {
+  height: 50px;
+  width: 330px;
+}
+button {
+  background-image: linear-gradient(
+    to right,
+    rgb(85, 215, 229),
+    rgb(159, 3, 234)
+  );
+  border: none;
+  color: white;
+  height: 40px;
+  width: 330px;
+  font-size: 16px;
+}
+p {
+  text-align: center;
+}

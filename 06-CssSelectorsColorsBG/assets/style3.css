@@ -1,0 +1,12 @@
+body {
+  /* background-image: url(./images/nature.webp); */
+  background-image: url(./images/nature2);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+}
+p {
+  width: 800px;
+  color: rgb(182, 182, 82);
+  margin: 0 auto;
+}
