@@ -1,0 +1,16 @@
+body {
+  background-image: url(./images/sea.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box {
+  margin: 0 auto;
+  background-color: white;
+  width: 470px;
+  height: 180px;
+  padding: 20px 40px;
+  border-radius: 8px;
+  background-color: transparent;
+  backdrop-filter: blur(60px);
+  margin-top: 15%;
+}
