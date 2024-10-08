@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(../images/hst2.jpg);
+  background-size: cover;
+  padding-top: 150px;
+}
+p {
+  text-align: center;
+}
+.n1,
+.n3,
+.n5 {
+  color: rgb(168, 124, 53);
+  font-size: 40px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+}
+.n2,
+.n5 {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+}
+.n2 {
+  font-size: 150px;
+}
+.n4 {
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Noto Serif Display", serif;
+  word-spacing: 15px;
+  margin-bottom: 20px;
+}
+.end {
+  background-color: rgb(155, 123, 84);
+  text-align: center;
+  height: 60px;
+  padding: 20px 0;
+  font-size: 20px;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+  margin-top: 115px;
+}
