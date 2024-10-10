@@ -1,0 +1,160 @@
+header {
+  display: flex;
+}
+
+.inp input {
+  border: none;
+  padding: 0px 6px;
+}
+.inp {
+  border: 1px solid rgb(203, 203, 203);
+  width: 22rem;
+  height: 3.2rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.inp i {
+  font-size: 1.6rem;
+  color: rgb(135, 135, 135);
+  position: absolute;
+  right: 8px;
+}
+.first {
+  display: flex;
+  align-items: center;
+}
+.first-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.6rem;
+  width: 100rem;
+}
+.first-info span {
+  font-weight: 600;
+}
+.first-info i {
+  font-size: 1.4rem;
+}
+
+ul li a {
+  color: rgb(135, 135, 135);
+  line-height: 1.8;
+}
+
+.branding {
+  gap: 13rem;
+}
+.size button {
+  border: 1px solid rgb(223, 223, 223);
+  padding: 0.5rem 2rem;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+.size-btn,
+.tag-btn {
+  width: 20rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.size,
+.tags {
+  gap: 17.5rem;
+}
+.tag-btn button {
+  border: 1px solid rgb(223, 223, 223);
+  padding: 0.5rem 2rem;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 1.6rem;
+  background-color: rgb(238, 242, 245);
+}
+
+.color {
+  gap: 15.5rem;
+}
+.color button {
+  width: 4rem;
+  height: 4rem;
+  border: 1px solid rgb(223, 223, 223);
+  border-radius: 50%;
+}
+.color-1 {
+  background-color: black;
+}
+.color-2 {
+  background-color: rgb(32, 49, 95);
+}
+.color-3 {
+  background-color: orange;
+}
+.color-4 {
+  background-color: rgb(99, 96, 104);
+}
+.color-5 {
+  background-color: rgb(87, 89, 77);
+}
+.color-6 {
+  background-color: rgb(232, 186, 196);
+}
+.color-7 {
+  background-color: rgb(214, 193, 215);
+}
+.color-8 {
+  background-color: rgb(237, 28, 36);
+}
+.color-9 {
+  background-color: white;
+}
+.container .cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4.2rem;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  height: 10rem;
+  height: auto;
+  /* width: 22rem; */
+}
+
+img {
+  width: 30rem;
+  height: 30rem;
+  filter: brightness(95%);
+}
+.card i {
+  font-size: 1.2rem;
+}
+span {
+  font-size: 2rem;
+  font-weight: 700;
+}
+h2 {
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+.img2 {
+  position: relative;
+}
+.img4 {
+  position: relative;
+}
+.img8 {
+  position: relative;
+}
+.img10 {
+  position: relative;
+}
+.sale {
+  background-color: black;
+  color: white;
+  padding: 0.5rem 2rem;
+  position: absolute;
+  z-index: 2;
+  top: 3rem;
+}
