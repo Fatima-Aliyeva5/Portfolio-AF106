@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(47, 47, 47);
+  height: 720px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.all {
+  width: 1050px;
+  height: 250px;
+  gap: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.container {
+  width: 450px;
+  height: 40px;
+  border: 1px solid red;
+  background-color: black;
+  display: flex;
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+  border-radius: 2px;
+}
+.box {
+  padding: 15px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+}
+.box-1 {
+  background-color: rgb(209, 19, 86);
+}
+.box-2 {
+  background-color: rgb(145, 28, 166);
+}
+.box-3 {
+  background-color: rgb(110, 60, 229);
+}
+.box-4 {
+  background-color: rgb(60, 126, 239);
+}
+.box-5 {
+  background-color: rgb(0, 170, 194);
+}
+.box-6 {
+  background-color: rgb(122, 173, 59);
+}
+.box-7 {
+  background-color: rgb(180, 197, 30);
+}
+.box-8 {
+  background-color: rgb(236, 218, 27);
+}
+.box-9 {
+  background-color: rgb(226, 170, 0);
+}
+.box-10 {
+  background-color: rgb(233, 79, 9);
+}
+.num2 {
+  justify-content: space-around;
+}
+.num3 {
+  /* display: flex; */
+  justify-content: center;
+}
+.num4 {
+  justify-content: space-between;
+}
+.num5 {
+  /* display: flex; */
+  justify-content: end;
+}
+.num6 {
+  justify-content: space-evenly;
+}

@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(47, 47, 47);
+  display: flex;
+  justify-content: center;
+  margin: 40px 0px;
+}
+.all {
+  width: 1380px;
+  gap: 50px 90px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.container {
+  width: 398px;
+  height: 280px;
+  border: 1px solid red;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+  border-radius: 2px;
+}
+.box {
+  padding: 10px 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  width: 132px;
+  height: 30px;
+}
+.box-1 {
+  background-color: rgb(209, 19, 86);
+}
+.box-2 {
+  background-color: rgb(145, 28, 166);
+}
+.box-3 {
+  background-color: rgb(110, 60, 229);
+}
+.box-4 {
+  background-color: rgb(60, 126, 239);
+}
+.box-5 {
+  background-color: rgb(0, 170, 194);
+}
+.box-6 {
+  background-color: rgb(122, 173, 59);
+}
+.box-7 {
+  background-color: rgb(180, 197, 30);
+}
+.box-8 {
+  background-color: rgb(236, 218, 27);
+}
+.box-9 {
+  background-color: rgb(226, 170, 0);
+}
+.box-10 {
+  background-color: rgb(233, 79, 9);
+}
+
+.num1 {
+  align-content: flex-start;
+}
+.num2 {
+  align-content: center;
+}
+.num3 {
+  align-content: flex-end;
+}
+.num4 {
+  align-content: space-around;
+}
+.num5 {
+  align-content: space-between;
+}
+.num6 {
+  align-content: space-evenly;
+}
+.num7 .box {
+  padding: 35px 0px;
+}
+.num7 {
+  align-content: stretch;
+}
