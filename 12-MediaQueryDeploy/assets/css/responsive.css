@@ -1,0 +1,175 @@
+/* For Mobile */
+@media (max-width: 768px) {
+  header .navbar {
+    display: none;
+  }
+  .container {
+    max-width: 768px !important;
+    padding: 20px 15px;
+  }
+  header {
+    display: flex;
+    max-width: 768px;
+    height: 90px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: 20px;
+  }
+  .bars {
+    display: block;
+    position: absolute;
+    right: 40px;
+    top: 15px;
+  }
+  .box {
+    display: block;
+  }
+
+  #first .left-content {
+    max-width: 768px !important;
+    margin: 0px 15px;
+    margin-bottom: 20px;
+  }
+  .right-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .img1 {
+    margin: 0px 15px;
+    width: 100%;
+    height: 600px;
+  }
+  .img2 {
+    width: 100%;
+    height: 600px;
+    margin: 0px 15px;
+  }
+  .img3 {
+    width: 100%;
+    height: 600px;
+    margin: 0px 15px;
+  }
+  .img4 {
+    width: 100%;
+    height: 600px;
+    margin: 0px 15px;
+  }
+  /* sect 2 */
+  .cards {
+    display: block;
+  }
+  #second .container {
+    max-width: 768px !important;
+    padding: 20px 15px;
+  }
+  .text-men {
+    width: 768px;
+  }
+  .text-men h2 {
+    font-size: 50px;
+  }
+  .text-men span {
+    font-size: 40px;
+  }
+  .scroll {
+    width: 768px;
+  }
+  .card {
+    width: 740px;
+  }
+  .arrow {
+    display: none;
+  }
+  #fifth .text-area {
+    display: block;
+  }
+  .right-img-area {
+    display: block;
+    flex-wrap: nowrap;
+  }
+  /* sect5 start */
+  #fifth .container {
+    display: block;
+    max-width: 768px !important;
+    padding: 20px 15px;
+  }
+  .text-area {
+    width: 750px !important;
+  }
+  .text-area h2 {
+    width: 100%;
+    font-size: 54px;
+    margin-bottom: 30px;
+  }
+  .text-area p,
+  .text-area span {
+    width: 100%;
+    font-size: 26px;
+    margin-bottom: 30px;
+  }
+  .images-box {
+    justify-content: baseline;
+    max-width: 768px;
+    width: 100%;
+  }
+  .images-box img {
+    width: 100px;
+    height: 100px;
+  }
+  .right-img-area {
+    width: 768px !important;
+  }
+  .img-div {
+    width: 760px !important;
+    height: 600px !important;
+  }
+  .box2 {
+    overflow: visible;
+  }
+  #seven .container {
+    display: block;
+    max-width: 768px;
+    width: 100%;
+  }
+  .left-area h2 {
+    max-width: 700px !important;
+    width: 100%;
+    font-size: 24px;
+  }
+
+  .inputs input {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .inputs {
+    flex-direction: column;
+    margin-bottom: 20px;
+    gap: 10px;
+  }
+  .inputs input {
+    margin: 10px 0px;
+  }
+
+  #seven button {
+    width: 100%;
+  }
+  footer .line2 {
+    display: none;
+  }
+}
+
+/* For Tablets */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .navbar a {
+    font-size: 12px;
+  }
+  ul {
+    gap: 10px !important;
+  }
+  .logo-div {
+    margin-right: 20px;
+  }
+}
