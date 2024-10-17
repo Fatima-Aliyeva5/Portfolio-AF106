@@ -1,0 +1,290 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 8px 80px;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+}
+
+header .container .nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+header .container .nav .logo h1 {
+  font-size: 20px;
+  font-family: "Roboto", serif;
+  font-weight: 400;
+}
+header .container .nav .navbar {
+  flex: 1;
+}
+header .container .nav .navbar ul {
+  gap: 20px;
+}
+header .container .nav .navbar ul a {
+  font-size: 16px;
+  font-family: "Roboto", serif;
+  color: rgba(0, 0, 0, 0.9019607843);
+}
+header .container .nav .navbar ul a:hover {
+  color: rgba(0, 0, 0, 0.9529411765);
+}
+header .container .nav .cart {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 6px 12px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.9019607843);
+  font-family: "Roboto", serif;
+}
+header .container .nav .cart span {
+  padding: 4.2px 7.8px;
+  background-color: rgba(0, 0, 0, 0.9019607843);
+  color: white;
+  border-radius: 50%;
+  font-size: 12px;
+}
+header .container .nav .bars {
+  display: none;
+}
+
+main #first {
+  background-color: #212529;
+  height: 297px;
+  width: 100%;
+  padding: 48px 0;
+  color: white;
+  font-family: "Roboto", serif;
+}
+main #first .title {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main #first .title h2 {
+  font-size: 56px;
+}
+main #first .title p {
+  font-size: 20px;
+}
+main #second {
+  margin: 100px 0;
+}
+main #second .cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+main #second .cards .card {
+  font-family: "Roboto", serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 268px;
+  border: 1px solid rgba(218, 218, 218, 0.895);
+  border-radius: 5px;
+}
+main #second .cards .card .img {
+  width: 268px;
+  height: 178px;
+}
+main #second .cards .card .img img {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+main #second .cards .card .text h5 {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+main #second .cards .card .text .star {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+main #second .cards .card .text .star i {
+  font-size: 14px;
+}
+main #second .cards .card .btn1 {
+  padding: 30px 0px 20px 0;
+}
+main #second .cards .card .btn1 button {
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0.9019607843);
+  border: 1px solid rgba(0, 0, 0, 0.9019607843);
+  border-radius: 5px;
+  padding: 8px 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+main #second .cards .card .btn1 button:hover {
+  background-color: #212529;
+  color: white;
+  transition: all 0.2s ease;
+}
+main #second .card2 .img {
+  position: relative;
+}
+main #second .card2 .img .sale {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #212529;
+  color: white;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 5px 8px;
+  font-weight: 600;
+}
+main #second .card2 .text2 h5 {
+  font-size: 20px;
+  text-align: center;
+}
+main #second .card2 .text2 .star {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+main #second .card2 .text2 .star i {
+  font-size: 14px;
+}
+main #second .card2 .btn2 button {
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0.9019607843);
+  border: 1px solid rgba(0, 0, 0, 0.9019607843);
+  border-radius: 5px;
+  padding: 8px 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+main #second .card2 .btn2 button:hover {
+  background-color: #212529;
+  color: white;
+  transition: all 0.2s ease;
+}
+main #second .card3 .img {
+  position: relative;
+}
+main #second .card3 .img .sale {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #212529;
+  color: white;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 5px 8px;
+  font-weight: 600;
+}
+main #second .card3 .img .btn1 {
+  padding: 30px 0px 20px 0;
+}
+main #second .card3 .img .btn1 button {
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0.9019607843);
+  border: 1px solid rgba(0, 0, 0, 0.9019607843);
+  border-radius: 5px;
+  padding: 8px 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+main #second .card3 .img .btn1 button:hover {
+  background-color: #212529;
+  color: white;
+  transition: all 0.2s ease;
+}
+main footer {
+  background-color: #212529;
+  width: 100%;
+  height: 120px;
+}
+main footer p {
+  color: white;
+  font-family: "Roboto", serif;
+  padding: 48px 0px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  header .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .nav .logo {
+    width: 140.38px;
+  }
+  header .nav .navbar {
+    display: none;
+  }
+  header .nav .cart {
+    display: none !important;
+  }
+  header .nav .bars {
+    display: block !important;
+    font-size: 30px;
+  }
+  #second .container {
+    padding: 8px 10px !important;
+  }
+  #second .container .cards {
+    align-items: center;
+    justify-content: center;
+  }
+  #second .container .cards .card {
+    width: 180px !important;
+  }
+  #second .container .cards .card .img {
+    width: 180px !important;
+  }
+  #second .container .cards .card .img img {
+    width: 100%;
+    height: 120px;
+  }
+  #second .container .cards .card2 button {
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  main #second .container .cards {
+    align-items: center;
+    justify-content: center;
+  }
+  main #second .container .cards .card {
+    width: 200px !important;
+  }
+  main #second .container .cards .card .img {
+    width: 200px !important;
+  }
+  main #second .container .cards .card .img img {
+    width: 100%;
+    height: 120px;
+  }
+  main #second .container .cards .card2 button {
+    margin-bottom: 20px;
+  }
+}/*# sourceMappingURL=style.css.map */

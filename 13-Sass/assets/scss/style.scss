@@ -1,0 +1,304 @@
+@import "variable";
+@import "reset";
+
+header {
+  .container {
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 40px;
+      .logo {
+        h1 {
+          font-size: 20px;
+          font-family: $fontFamily;
+          font-weight: 400;
+        }
+      }
+      .navbar {
+        flex: 1;
+        ul {
+          gap: 20px;
+          a {
+            font-size: $aFontSize;
+            font-family: $fontFamily;
+            color: $navColor;
+            &:hover {
+              color: $hoverColor;
+            }
+          }
+        }
+      }
+      .cart {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        padding: 6px 12px;
+        border-radius: 5px;
+        border: 1px solid $navColor;
+        font-family: $fontFamily;
+
+        span {
+          padding: 4.2px 7.8px;
+          background-color: $navColor;
+          color: white;
+          border-radius: 50%;
+          font-size: 12px;
+        }
+      }
+      .bars {
+        display: none;
+      }
+    }
+  }
+}
+
+main {
+  #first {
+    background-color: $backgroundColor;
+    height: 297px;
+    width: 100%;
+    padding: 48px 0;
+    color: white;
+    font-family: $fontFamily;
+    .title {
+      height: 200px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      h2 {
+        font-size: 56px;
+      }
+      p {
+        font-size: $fontInfoSize;
+      }
+    }
+  }
+
+  #second {
+    margin: 100px 0;
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 50px;
+      .card {
+        font-family: $fontFamily;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 268px;
+        border: 1px solid rgba(218, 218, 218, 0.895);
+        border-radius: 5px;
+        .img {
+          width: 268px;
+          height: 178px;
+          img {
+            width: 100%;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+          }
+        }
+        .text {
+          h5 {
+            font-size: $fontInfoSize;
+            padding-bottom: 5px;
+          }
+          .star {
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+            i {
+              font-size: 14px;
+            }
+          }
+        }
+        .btn1 {
+          padding: 30px 0px 20px 0;
+          button {
+            background-color: transparent;
+            color: $navColor;
+            border: 1px solid $navColor;
+            border-radius: 5px;
+            padding: 8px 12px;
+            font-size: $aFontSize;
+            cursor: pointer;
+            &:hover {
+              background-color: $backgroundColor;
+              color: white;
+              transition: all 0.2s ease;
+            }
+          }
+        }
+      }
+    }
+
+    .card2 {
+      .img {
+        position: relative;
+        .sale {
+          position: absolute;
+          top: 10px;
+          right: 10px;
+          background-color: $backgroundColor;
+          color: white;
+          border-radius: 5px;
+          font-size: 12px;
+          padding: 5px 8px;
+          font-weight: 600;
+        }
+      }
+      .text2 {
+        h5 {
+          font-size: $fontInfoSize;
+          text-align: center;
+        }
+        .star {
+          display: flex;
+          justify-content: center;
+          padding: 10px 0;
+          i {
+            font-size: 14px;
+          }
+        }
+      }
+
+      .btn2 {
+        button {
+          background-color: transparent;
+          color: $navColor;
+          border: 1px solid $navColor;
+          border-radius: 5px;
+          padding: 8px 12px;
+          font-size: $aFontSize;
+          cursor: pointer;
+          &:hover {
+            background-color: $backgroundColor;
+            color: white;
+            transition: all 0.2s ease;
+          }
+        }
+      }
+    }
+    .card3 {
+      .img {
+        position: relative;
+        .sale {
+          position: absolute;
+          top: 10px;
+          right: 10px;
+          background-color: $backgroundColor;
+          color: white;
+          border-radius: 5px;
+          font-size: 12px;
+          padding: 5px 8px;
+          font-weight: 600;
+        }
+        .btn1 {
+          padding: 30px 0px 20px 0;
+          button {
+            background-color: transparent;
+            color: $navColor;
+            border: 1px solid $navColor;
+            border-radius: 5px;
+            padding: 8px 12px;
+            font-size: $aFontSize;
+            cursor: pointer;
+            &:hover {
+              background-color: $backgroundColor;
+              color: white;
+              transition: all 0.2s ease;
+            }
+          }
+        }
+      }
+    }
+  }
+  footer {
+    background-color: $backgroundColor;
+    width: 100%;
+    height: 120px;
+    p {
+      color: white;
+      font-family: $fontFamily;
+      padding: 48px 0px;
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .logo {
+        width: 140.38px;
+      }
+      .navbar {
+        display: none;
+      }
+      .cart {
+        display: none !important;
+      }
+      .bars {
+        display: block !important;
+        font-size: 30px;
+      }
+    }
+  }
+  #second {
+    .container {
+      padding: 8px 10px !important;
+      .cards {
+        align-items: center;
+        justify-content: center;
+        .card {
+          width: 180px !important;
+          .img {
+            width: 180px !important;
+            img {
+              width: 100%;
+              height: 120px;
+            }
+          }
+        }
+        .card2 {
+          button {
+            margin-bottom: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  main {
+    #second {
+      .container {
+        .cards {
+          align-items: center;
+          justify-content: center;
+          .card {
+            width: 200px !important;
+            .img {
+              width: 200px !important;
+              img {
+                width: 100%;
+                height: 120px;
+              }
+            }
+          }
+          .card2 {
+            button {
+              margin-bottom: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
