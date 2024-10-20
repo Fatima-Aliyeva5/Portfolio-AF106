@@ -1,0 +1,49 @@
+
+header {
+  margin-bottom: 3rem;
+    .head_top {
+      @include center(space-between);
+      margin-bottom: 2rem;
+      .lang {
+        @include center;
+        gap: 3rem;
+        span {
+          width: 3.2rem;
+          height: 3rem;
+          border: 1px solid #d4c8be;
+          border-radius: 0.5rem;
+          padding: 0.4rem 0.7rem 0.6rem 0.6rem;
+        }
+        .search {
+          width: 1.971rem;
+          height: 1.971rem;
+        }
+        .logo {
+          @include center;
+        }
+      }
+      .cart_user {
+        @include center;
+        gap: 3rem;
+        .cart {
+          width: 2.4rem;
+          height: 2.4rem;
+        }
+        .user {
+          width: 1.55rem;
+          height: 2.05rem;
+        }
+      }
+      .bars{
+        display: none
+      }
+    }
+    .head_bottom {
+      ul {
+        @include center;
+        gap: 4rem;
+      }
+    }
+  }
+  
+  

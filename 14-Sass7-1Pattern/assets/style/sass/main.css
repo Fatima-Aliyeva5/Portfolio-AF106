@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Palanquin&family=Poppins&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+.header_top {
+  height: 4.8rem;
+}
+
+*, ::after, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  max-width: 112.8rem;
+  margin: 0 auto;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.head-top {
+  background: #007878;
+}
+
+.head_top {
+  display: flex;
+}
+.head_top .lang span {
+  width: 3.2rem;
+  height: 3rem;
+  border: 1px solid #d4c8be;
+  border-radius: 0.5rem;
+  padding: 5px;
+}/*# sourceMappingURL=main.css.map */

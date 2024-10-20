@@ -1,0 +1,10 @@
+@mixin center($justify: center, $align: center, $direction: row) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+}
+
+.header_top {
+  height: 4.8rem;
+}

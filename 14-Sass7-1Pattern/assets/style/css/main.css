@@ -1,0 +1,704 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+.header_top {
+  height: 4.8rem;
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  max-width: 100%;
+  margin: 1.2rem 3rem 0;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+.arrow {
+  position: absolute;
+  right: 6rem;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.line {
+  position: absolute;
+  right: 6rem;
+  margin-top: 5rem;
+}
+
+input {
+  outline: none;
+}
+
+textarea {
+  outline: none;
+}
+
+span {
+  font-weight: 500;
+  font-size: 1.6rem;
+  font-family: "Raleway", sans-serif;
+}
+
+.logo a {
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  font-weight: 400;
+  color: #2d2d2b;
+}
+
+.head_bottom ul a {
+  font-family: "Raleway", sans-serif;
+  color: #2d2d2b;
+}
+
+h4 {
+  width: 83rem;
+  font-size: 7.2rem;
+  font-family: "Raleway", sans-serif;
+}
+
+p {
+  line-height: 2.4rem;
+  font-family: "Raleway", sans-serif;
+}
+
+#percent h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: #2d2d2b;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: #2d2d2b;
+  margin-bottom: 6rem;
+}
+
+.card_text p {
+  font-weight: 500;
+  font-size: 2rem;
+  font-family: "Raleway", sans-serif;
+  line-height: 2.8rem;
+}
+
+.card_text span {
+  font-weight: 700;
+  font-size: 2rem;
+  font-family: "Raleway", sans-serif;
+  color: #b8926a;
+}
+
+@media (max-width: 76.8rem) {
+  h2 {
+    font-size: 2.4rem !important;
+    height: 1.7rem !important;
+  }
+}
+#first .btn .shop {
+  width: 1.947rem;
+  height: 2.05rem;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 2rem;
+  width: 33rem;
+  height: 5.4rem;
+  background-color: #b8926a;
+  border-radius: 1rem;
+  color: #eae6df;
+  font-size: 1.6rem;
+}
+
+.btn2 button {
+  background-color: transparent;
+  border: 0.1rem solid #b8926a;
+  color: #b8926a;
+}
+
+header {
+  margin-bottom: 3rem;
+}
+header .head_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 2rem;
+}
+header .head_top .lang {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 3rem;
+}
+header .head_top .lang span {
+  width: 3.2rem;
+  height: 3rem;
+  border: 1px solid #d4c8be;
+  border-radius: 0.5rem;
+  padding: 0.4rem 0.7rem 0.6rem 0.6rem;
+}
+header .head_top .lang .search {
+  width: 1.971rem;
+  height: 1.971rem;
+}
+header .head_top .lang .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+header .head_top .cart_user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 3rem;
+}
+header .head_top .cart_user .cart {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+header .head_top .cart_user .user {
+  width: 1.55rem;
+  height: 2.05rem;
+}
+header .head_top .bars {
+  display: none;
+}
+header .head_bottom ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 4rem;
+}
+
+footer {
+  margin: 15rem 0 3rem;
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+footer .container .footer_col1 h5 {
+  font-size: 5.22rem;
+  font-family: "Playfair Display", serif;
+  line-height: 5.8rem;
+  margin-bottom: 2rem;
+  color: #2d2d2b;
+  font-weight: 400;
+}
+footer .container .footer_col1 p {
+  color: #717171;
+}
+footer .container .footer_col2 {
+  display: flex;
+  align-items: center;
+  gap: 10rem;
+}
+footer .container .footer_col2 span {
+  color: #717171;
+}
+footer .container .footer_col2 .col2 {
+  width: 28rem;
+}
+
+.head-top {
+  background: #007878;
+}
+
+#first {
+  position: relative;
+  height: 75.7rem;
+}
+#first .text_first {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 3rem;
+}
+#first .text_first h4 {
+  padding-top: 12.4rem;
+  width: 80rem;
+  line-height: 8.6rem;
+  font-size: 7.2rem;
+  font-family: "Playfair Display", serif;
+  color: #2d2d2b;
+  letter-spacing: 0.4rem;
+}
+#first .text_first p {
+  font-family: "Raleway", sans-serif;
+  color: #2d2d2b;
+  width: 44.7rem;
+}
+#first .bg_first {
+  background-image: url(/assets/images/first\ bg.jpg);
+  width: 91.3rem;
+  height: 75.7rem;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 3rem;
+  z-index: -2;
+  border-radius: 1rem;
+}
+#first .blur {
+  position: absolute;
+  width: 40rem;
+  height: 75.7rem;
+  background-color: rgba(255, 255, 255, 0.1019607843);
+  -webkit-backdrop-filter: blur(0.5rem);
+          backdrop-filter: blur(0.5rem);
+  z-index: -1;
+}
+
+.bottom_cards {
+  margin: 5rem 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+  gap: 2rem;
+}
+.bottom_cards .blur {
+  position: absolute;
+  width: 33rem;
+  height: 5rem;
+  background-color: rgba(255, 255, 255, 0.1019607843);
+  -webkit-backdrop-filter: blur(0.5rem);
+          backdrop-filter: blur(0.5rem);
+  bottom: 0;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  color: #d4c8be;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+.bottom_cards .bottom {
+  width: 33rem;
+  height: 19.3rem;
+  cursor: pointer;
+}
+.bottom_cards .bottom_card1 {
+  background-image: url(/assets/images/sofas.png);
+  position: relative;
+}
+.bottom_cards .bottom_card2 {
+  background-image: url(/assets/images/beds.png);
+  position: relative;
+}
+.bottom_cards .bottom_card3 {
+  background-image: url(/assets/images/rugs.png);
+  position: relative;
+}
+.bottom_cards .bottom_card4 {
+  background-image: url(/assets/images/cushions.png);
+  position: relative;
+}
+
+#about .container h2 {
+  margin-top: 18rem;
+  margin-bottom: 3rem;
+}
+#about .container .about_part {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  gap: 10rem;
+}
+#about .container .about_part .about_left {
+  width: 73rem;
+  height: 41.2rem;
+}
+#about .container .about_part .about_right {
+  width: 56.3rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+#percent .bg {
+  background-image: url(/assets/images/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 36.7rem;
+  margin: 14rem 0;
+  text-align: center;
+}
+#percent .bg .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 36.7rem;
+  gap: 3rem;
+}
+#percent .bg .center h3 {
+  color: white;
+}
+#percent .bg .center p {
+  width: 44.5rem;
+  color: white;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.cards .card {
+  width: 33rem;
+  height: 38.1rem;
+  line-height: 4rem;
+}
+.cards .card .img {
+  width: 33rem;
+  height: 26.7rem;
+  position: relative;
+  cursor: pointer;
+}
+.cards .card .img .heart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 4.2rem;
+  height: 3.5rem;
+  border-radius: 0.5rem;
+  background-color: white;
+  position: absolute;
+  right: 1.5rem;
+  top: 1.5rem;
+  cursor: pointer;
+}
+.cards .card .img .heart img {
+  width: 4rem;
+  height: 3rem;
+}
+
+#most h2 {
+  margin-top: 10rem;
+}
+
+#collections {
+  background-color: rgba(212, 200, 190, 0.7490196078);
+  width: 100%;
+  height: 60rem;
+  margin-top: 18rem;
+  padding-top: 5rem;
+}
+#collections .collection-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+#collections .collection-top h2 {
+  margin-bottom: 0rem;
+}
+#collections .collection-top a {
+  color: #b8926a;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  text-decoration: underline;
+}
+#collections .bottom_cards {
+  display: flex;
+  justify-content: space-between;
+}
+#collections .bottom_cards .collection_img {
+  width: 44.6rem;
+  height: 28rem;
+  border-radius: 1rem;
+}
+#collections .bottom_cards .collection_img .blur {
+  width: 44.6rem;
+  height: 8rem;
+}
+#collections .box1 {
+  background-image: url(/assets/images/bedroom.png);
+  background-size: cover;
+  position: relative;
+}
+#collections .box2 {
+  background-image: url(/assets/images/living\ room.png);
+  background-size: cover;
+  position: relative;
+}
+#collections .box3 {
+  background-image: url(/assets/images/kitchen.png);
+  background-size: cover;
+  position: relative;
+}
+
+#contact .container .contact_part {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+}
+#contact .container .contact_part .left_contact form {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 56.3rem;
+  gap: 2rem;
+}
+#contact .container .contact_part .left_contact form input {
+  width: 56.3rem;
+  height: 5.4rem;
+  border-radius: 1rem;
+  border: 0.1rem solid #d4c8be;
+  padding: 2rem;
+}
+#contact .container .contact_part .left_contact form textarea {
+  width: 56.3rem;
+  height: 13.6rem;
+  border-radius: 1rem;
+  border: 0.1rem solid #d4c8be;
+  line-height: 2rem;
+  padding: 2rem;
+  resize: none;
+}
+#contact .container .contact_part .left_contact form ::-moz-placeholder {
+  font-weight: 500;
+  font-size: 1.6rem;
+  font-family: "Raleway", sans-serif;
+  color: #b0b0b0;
+}
+#contact .container .contact_part .left_contact form ::placeholder {
+  font-weight: 500;
+  font-size: 1.6rem;
+  font-family: "Raleway", sans-serif;
+  color: #b0b0b0;
+}
+#contact .container .contact_part .left_contact .btn_contact button {
+  width: 56.3rem;
+}
+#contact .container .right_contact_img {
+  width: 70rem;
+  height: 41.7rem;
+}
+
+@media (max-width: 767px) {
+  header .head_top {
+    justify-content: left;
+    position: relative;
+  }
+  header .head_top .search {
+    position: absolute;
+    right: 5rem;
+  }
+  header .head_top .logo {
+    justify-content: flex-start;
+  }
+  header .head_top span {
+    display: none;
+  }
+  header .head_top .cart_user {
+    display: none;
+  }
+  header .head_top .bars {
+    display: block;
+    font-size: 2.8rem;
+    position: absolute;
+    right: 0;
+  }
+  header .head_bottom {
+    display: none;
+  }
+  #first .text_first {
+    align-items: center;
+  }
+  #first .text_first h4 {
+    font-size: 3.2rem;
+    width: 28.8rem;
+    line-height: 3.6rem;
+    letter-spacing: 0;
+    padding-top: 5rem;
+  }
+  #first .text_first p {
+    width: 28.8rem !important;
+  }
+  #first .text_first .btn button {
+    width: 28.8rem !important;
+  }
+  #first .bg_first {
+    position: static;
+    width: 28.8rem;
+    height: 23.9rem;
+    margin-top: 4rem !important;
+    margin: 0 auto;
+  }
+  .bottom_cards {
+    align-items: center;
+    flex-direction: column;
+  }
+  .bottom_cards .blur {
+    width: 29rem !important;
+    height: 4rem !important;
+    bottom: 4rem;
+    position: absolute;
+  }
+  .bottom {
+    width: 29rem !important;
+    height: 21.1rem !important;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  .about_part {
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: 0rem !important;
+  }
+  .about_part .about_left {
+    width: 28.8rem !important;
+    height: 17.4rem !important;
+    margin-bottom: 4rem;
+  }
+  .about_part .about_right {
+    width: 28.8rem !important;
+    gap: 0rem !important;
+  }
+  .about_part .about_right p {
+    width: 28.8rem !important;
+  }
+  .about_part .about_right button {
+    width: 28.8rem !important;
+    margin-top: 3rem;
+  }
+  #collections {
+    height: 90rem;
+  }
+  #collections .bottom_cards .box1 {
+    width: 33rem !important;
+    height: 20rem !important;
+  }
+  #collections .bottom_cards .box2 {
+    width: 33rem !important;
+    height: 20rem !important;
+  }
+  #collections .bottom_cards .box3 {
+    width: 33rem !important;
+    height: 20rem !important;
+  }
+  .contact_part {
+    justify-content: flex-end !important;
+    flex-direction: column !important;
+  }
+  .contact_part form {
+    width: 28.8rem !important;
+  }
+  .contact_part form input {
+    width: 35rem !important;
+  }
+  .contact_part form textarea {
+    width: 35rem !important;
+  }
+  .contact_part form .btn_contact button {
+    width: 35rem !important;
+  }
+  .contact_part .right_contact_img {
+    width: 35rem !important;
+    height: 17.7rem !important;
+    margin-top: 4rem;
+  }
+  footer .container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  footer h5 {
+    font-size: 2.8rem !important;
+  }
+  footer .footer_col2 {
+    flex-direction: column;
+    gap: 2rem !important;
+    align-items: flex-start !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  #first h4 {
+    font-size: 5rem !important;
+  }
+  .bottom_cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #collections {
+    height: 110rem !important;
+  }
+  #collections .bottom_cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #contact input {
+    width: 70rem !important;
+  }
+  #contact textarea {
+    width: 70rem !important;
+  }
+  #contact .btn_contact button {
+    width: 70rem !important;
+  }
+  #contact .right_contact_img {
+    display: none;
+  }
+  footer .footer_col2 {
+    flex-direction: column;
+    gap: 1rem !important;
+  }
+}

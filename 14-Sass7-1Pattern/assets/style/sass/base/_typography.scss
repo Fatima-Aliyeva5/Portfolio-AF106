@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+span {
+  font-weight: 500;
+  font-size: 1.6rem;
+  font-family: $font_1;
+}
+
+.logo {
+  a {
+    font-family: $font_2;
+    font-size: 36px;
+    font-weight: 400;
+    color: $mainColor;
+  }
+}
+
+.head_bottom {
+  ul {
+    a {
+      font-family: $font_1;
+      color: $mainColor;
+    }
+  }
+}
+
+h4 {
+  width: 83rem;
+  font-size: 7.2rem;
+  font-family: $font_1;
+}
+
+p {
+  line-height: 2.4rem;
+  font-family: $font_1;
+}
+#percent {
+  h3 {
+    font-family: $font_2;
+    font-weight: 700;
+    font-size: 48px;
+    color: $mainColor;
+  }
+}
+h2 {
+  font-family: $font_2;
+  font-weight: 700;
+  font-size: 48px;
+  color: $mainColor;
+  margin-bottom: 6rem;
+}
+.card_text {
+  p {
+    font-weight: 500;
+    font-size: 2rem;
+    font-family: $font_1;
+    line-height: 2.8rem;
+  }
+}
+.card_text {
+  span {
+    font-weight: 700;
+    font-size: 2rem;
+    font-family: $font_1;
+    color: $buttonColor;
+  }
+}
+
+@media (max-width: 76.8rem) {
+  h2 {
+    font-size: 2.4rem !important;
+    height: 1.7rem !important;
+  }
+}

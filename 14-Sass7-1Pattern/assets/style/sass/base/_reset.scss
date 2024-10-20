@@ -1,0 +1,51 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+.container {
+  max-width: 100%;
+  margin: 1.2rem 3rem 0;
+}
+body {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  font-weight: 400;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+button {
+  border: none;
+  cursor: pointer;
+}
+.arrow {
+  position: absolute;
+  right: 6rem;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+.line {
+  position: absolute;
+  right: 6rem;
+  margin-top: 5rem;
+}
+input {
+  outline: none;
+}
+textarea {
+  outline: none;
+}
